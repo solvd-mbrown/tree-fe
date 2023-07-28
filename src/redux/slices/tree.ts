@@ -15,6 +15,7 @@ import {
 	getAddRelativeToTreeInQuestionnaireBodyData,
 	getAddRelativeToTreeInUserProfileBodyData,
 } from '~screens/TreeScreens/Helpers/AddRelativeToTreeOutsideOfTreeHelper';
+import {TreeMember} from '~screens/TreeScreens';
 
 const initialState = {
 	treeLoading: false,
@@ -175,6 +176,9 @@ const treeSlice = createSlice({
 	name: 'tree',
 	initialState,
 	reducers: {
+		setTreeMemberToEdit(state, {payload}: TreeMember) {
+			state.tree.treeMembersData = payload;
+		},
 		setTreeViewer: (state, {payload}) => {
 			state.tree.treeViewer = payload;
 		},
@@ -249,3 +253,17 @@ export const treeSelector = {
 };
 
 export default treeSlice.reducer;
+
+export class deleteTreeMember {
+	private id: any;
+	constructor(id: any) {
+		this.id = id;
+	}
+}
+
+export class setTreeMemberToEdit {
+	private id: any;
+	constructor(id: any) {
+		this.id = id;
+	}
+}

@@ -9,7 +9,7 @@ import {ITreeMemberDescendant} from '~interfaces/ITreeMemberDescendant';
 import {TreePart} from '~types/TreePart';
 import {TreeTypes} from '~utils';
 
-import treeStyles from '../treeStyles';
+import treeStyles from '../components/treeStyles';
 
 const renderChildren = (
 	childrenData: TreePart,

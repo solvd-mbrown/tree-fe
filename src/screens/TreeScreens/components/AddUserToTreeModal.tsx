@@ -55,6 +55,7 @@ const AddUserToTreeModal: FC<AddUserToTreeModalProps> = ({
 		if (addRelativeInProfile) {
 			dispatch(
 				createRelativeAsync({
+					setting: addRelativeInProfile,
 					userId: addRelativeInProfile.userId,
 					treeId: addRelativeInProfile.treeId,
 					parents: addRelativeInProfile.parents,
@@ -63,6 +64,7 @@ const AddUserToTreeModal: FC<AddUserToTreeModalProps> = ({
 						lastName: values.lastName,
 						gender: values.gender,
 						email: uniqueEmail,
+						birthdate: '',
 					},
 					addRelativeViaModal: true,
 				})

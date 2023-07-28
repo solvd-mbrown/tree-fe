@@ -15,7 +15,7 @@ import {useSelector} from 'react-redux';
 import {getTreeInPartsByIdAsync} from '~redux/slices/tree';
 import {authSelector} from '~redux/slices/auth';
 
-import TreeScreen from '~screens/TreeScreens/TreeScreen';
+import TreeScreen from '~screens/TreeScreens/components/TreeScreen';
 import MainUserProfileScreen from '~screens/UserProfileScreens/MainUserProfileScreen';
 import PostsScreen from '~screens/PostsScreen/PostsScreen';
 import EmptyScreen from '~screens/EmptyScreen';
