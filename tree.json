@@ -1,0 +1,373 @@
+{
+  "id": "127",
+  "name": "NewTree128",
+  "uuid": "00db0572-2653-4356-8c0a-e1d382be3ec0",
+  "createDate": 1689254721824,
+  "rootPartTree": [
+    {
+      "user": {
+        "identity": "658",
+        "labels": [
+          "User"
+        ],
+        "properties": {
+          "firstName": "Granddad",
+          "lastName": "Granddad",
+          "updateDate": 1689255113975,
+          "myTreeIdByParent1": "127",
+          "gender": "Male",
+          "email": "aeb76dd1e-f87a-44e4-99f8-49f11bd4c8d0@arrtree.com",
+          "createDate": 1689255113529,
+          "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}",
+          "myTreeIdByParent2": "127"
+        }
+      },
+      "descendant": [
+        {
+          "identity": "657",
+          "labels": [
+            "User"
+          ],
+          "properties": {
+            "firstName": "Father",
+            "lastName": "Father",
+            "updateDate": 1689542023305,
+            "myTreeIdByParent1": "127",
+            "myTreeIdByParent2": "127",
+            "gender": "Male",
+            "email": "a9af04543-eed1-49ff-a455-f30886c494cb@arrtree.com",
+            "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}",
+            "createDate": 1689255095782
+          }
+        }
+      ],
+      "married": [
+        {
+          "identity": "699",
+          "labels": [
+            "User"
+          ],
+          "properties": {
+            "firstName": "Grandmother",
+            "lastName": "",
+            "updateDate": 1689542023323,
+            "myTreeIdByParent1": "700",
+            "gender": "Female",
+            "spouseTreeId": "127",
+            "treeOwner": true,
+            "email": "a11e0affa-9011-486b-b28b-0a0195846201@arrtree.com",
+            "createDate": 1689542022742,
+            "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}"
+          }
+        }
+      ],
+      "levelCount": 6,
+      "enterPointToRootPartTree": "657"
+    }
+  ],
+  "subTree": [
+    {
+      "user": {
+        "identity": "701",
+        "labels": [
+          "User"
+        ],
+        "properties": {
+          "subTreeTargetUser": 111,
+          "lastName": "",
+          "firstName": "Granddad",
+          "updateDate": 1689542066748,
+          "myTreeIdByParent1": "693",
+          "gender": "Male",
+          "email": "a0c69209b-13fd-4367-8b0e-d2457b78640c@arrtree.com",
+          "createDate": 1689542040739,
+          "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}"
+        }
+      },
+      "descendant": [
+        {
+          "user": {
+            "identity": "111",
+            "labels": [
+              "User"
+            ],
+            "properties": {
+              "firstName": "mother",
+              "lastName": "",
+              "updateDate": 1689542066881,
+              "myTreeIdByParent1": "693",
+              "myTreeIdByParent2": "703",
+              "gender": "Female",
+              "spouseTreeId": "127",
+              "treeOwner": true,
+              "email": "a8357f6b4-87fb-42ff-a1d3-2545884a77d8@arrtree.com",
+              "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}",
+              "createDate": 1689541895473
+            }
+          },
+          "descendant": [],
+          "married": [
+            {
+              "identity": "657",
+              "labels": [
+                "User"
+              ],
+              "properties": {
+                "firstName": "father",
+                "lastName": "father",
+                "updateDate": 1689542023305,
+                "myTreeIdByParent1": "127",
+                "myTreeIdByParent2": "700",
+                "gender": "Male",
+                "email": "a9af04543-eed1-49ff-a455-f30886c494cb@arrtree.com",
+                "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}",
+                "createDate": 1689255095782
+              }
+            }
+          ]
+        }
+      ],
+      "married": [
+        {
+          "identity": "702",
+          "labels": [
+            "User"
+          ],
+          "properties": {
+            "firstName": "grandmother",
+            "lastName": "",
+            "updateDate": 1689542066906,
+            "myTreeIdByParent1": "703",
+            "gender": "Female",
+            "spouseTreeId": "693",
+            "treeOwner": true,
+            "email": "a30f1501a-cdaa-4edf-81b5-5f3f59e34709@arrtree.com",
+            "createDate": 1689542066218,
+            "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}"
+          }
+        }
+      ],
+      "levelCount": 2,
+      "enterPointToSubTree": [
+        {
+          "identity": "111"
+        }
+      ]
+    }
+  ],
+  "bottomPartTree": [
+    {
+      "user": {
+        "identity": "657",
+        "labels": [
+          "User"
+        ],
+        "properties": {
+          "firstName": "Father",
+          "lastName": "Father",
+          "updateDate": 1689542023305,
+          "myTreeIdByParent1": "127",
+          "myTreeIdByParent2": "127",
+          "gender": "Male",
+          "email": "a9af04543-eed1-49ff-a455-f30886c494cb@arrtree.com",
+          "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}",
+          "createDate": 1689255095782
+        }
+      },
+      "descendant": [
+        {
+          "user": {
+            "identity": "128",
+            "labels": [
+              "User"
+            ],
+            "properties": {
+              "lastName": "andrei",
+              "updateDate": 1689542001349,
+              "birthdate": "Thu Jul 13 2023 16:11:20 GMT+0300 (Moscow Standard Time)",
+              "gender": "Male",
+              "isActivated": true,
+              "setting": "{\"isUserUpdatedOnWelcomeScreen\":true,\"isSkipped\":true,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false,\"formVariants\":{\"married\":\"yes\",\"deceased\":\"no\",\"details\":\"\"}},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}",
+              "firstName": "andrei",
+              "myTreeIdByParent1": "127",
+              "myTreeIdByParent2": "127",
+              "treeOwner": true,
+              "email": "dsdad3rwefgdsfs@gmail.com",
+              "createDate": 1689254721422
+            }
+          },
+          "descendant": [
+            {
+              "user": {
+                "identity": "697",
+                "labels": [
+                  "User"
+                ],
+                "properties": {
+                  "firstName": "son",
+                  "lastName": "",
+                  "updateDate": 1689542118987,
+                  "myTreeIdByParent1": "127",
+                  "myTreeIdByParent2": "127",
+                  "gender": "Male",
+                  "email": "a19ee77e1-be50-4c1b-bb73-d597616efa24@arrtree.com",
+                  "createDate": 1689541981179,
+                  "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}"
+                }
+              },
+              "descendant": [
+                {
+                  "user": {
+                    "identity": "705",
+                    "labels": [
+                      "User"
+                    ],
+                    "properties": {
+                      "firstName": "grandson",
+                      "lastName": "",
+                      "updateDate": 1689542119006,
+                      "myTreeIdByParent1": "127",
+                      "gender": "Male",
+                      "email": "aa4b11fc8-091d-43da-a3e1-a0659c7dc28b@arrtree.com",
+                      "createDate": 1689542118373,
+                      "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}",
+                      "myTreeIdByParent2": "127"
+                    }
+                  },
+                  "descendant": [],
+                  "married": []
+                }
+              ],
+              "married": []
+            },
+            {
+              "user": {
+                "identity": "698",
+                "labels": [
+                  "User"
+                ],
+                "properties": {
+                  "firstName": "daughter",
+                  "lastName": "",
+                  "updateDate": 1689542001363,
+                  "myTreeIdByParent1": "127",
+                  "myTreeIdByParent2": "127",
+                  "gender": "Female",
+                  "email": "ac37e5e76-50a6-4470-8abd-1a46cd22b353@arrtree.com",
+                  "createDate": 1689542000851,
+                  "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}"
+                }
+              },
+              "descendant": [],
+              "married": []
+            }
+          ],
+          "married": [
+            {
+              "identity": "663",
+              "labels": [
+                "User"
+              ],
+              "properties": {
+                "firstName": "Wife",
+                "lastName": "wife",
+                "updateDate": 1689541744914,
+                "myTreeIdByParent1": "110",
+                "gender": "Female",
+                "spouseTreeId": "127",
+                "treeOwner": true,
+                "email": "aab1edd9a-6017-4eda-8857-22122d78c1f3@arrtree.com",
+                "createDate": 1689541744260,
+                "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}"
+              }
+            }
+          ]
+        },
+        {
+          "user": {
+            "identity": "694",
+            "labels": [
+              "User"
+            ],
+            "properties": {
+              "firstName": "sister",
+              "lastName": "",
+              "updateDate": 1689542088284,
+              "myTreeIdByParent1": "127",
+              "myTreeIdByParent2": "127",
+              "gender": "Female",
+              "email": "a64e86746-208c-4d7f-8b25-433077809123@arrtree.com",
+              "createDate": 1689541916136,
+              "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}"
+            }
+          },
+          "descendant": [
+            {
+              "user": {
+                "identity": "704",
+                "labels": [
+                  "User"
+                ],
+                "properties": {
+                  "firstName": "child",
+                  "lastName": "",
+                  "updateDate": 1689542088304,
+                  "myTreeIdByParent1": "127",
+                  "myTreeIdByParent2": "127",
+                  "gender": "Male",
+                  "email": "a86ff1d75-c048-49d3-b292-adcc234ae45d@arrtree.com",
+                  "createDate": 1689542087695,
+                  "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}"
+                }
+              },
+              "descendant": [],
+              "married": []
+            }
+          ],
+          "married": [
+            {
+              "identity": "695",
+              "labels": [
+                "User"
+              ],
+              "properties": {
+                "firstName": "husband",
+                "lastName": "",
+                "updateDate": 1689541941637,
+                "myTreeIdByParent1": "696",
+                "gender": "Male",
+                "spouseTreeId": "127",
+                "treeOwner": true,
+                "email": "a8730fc73-b360-4d7e-abd6-e00dd057f6f6@arrtree.com",
+                "createDate": 1689541941193,
+                "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}"
+              }
+            }
+          ]
+        }
+      ],
+      "married": [
+        {
+          "identity": "111",
+          "labels": [
+            "User"
+          ],
+          "properties": {
+            "firstName": "mother",
+            "lastName": "",
+            "updateDate": 1689542066881,
+            "myTreeIdByParent1": "693",
+            "myTreeIdByParent2": "703",
+            "gender": "Female",
+            "spouseTreeId": "127",
+            "treeOwner": true,
+            "email": "a8357f6b4-87fb-42ff-a1d3-2545884a77d8@arrtree.com",
+            "setting": "{\"isUserUpdatedOnWelcomeScreen\":false,\"isSkipped\":false,\"isCompleted\":false,\"doNotShowQuestionnaireModal\":false,\"skipStep4_AddSiblings\":false,\"skipStep5_AddParent1GrandParents\":false,\"skipStep6_AddParent2GrandParents\":false,\"step1_AddSpouse\":{\"isStep1Completed\":false},\"step2_AddChildren\":{\"isStep2Completed\":false},\"step3_AddParents\":{\"isParent1Added\":false,\"isParent2Added\":false,\"isStep3Completed\":false},\"step4_AddSiblings\":{\"isStep4Completed\":false},\"step5_AddParent1GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep5Completed\":false},\"step6_AddParent2GrandParents\":{\"isGrandParent1Added\":false,\"isGrandParent2Added\":false,\"isStep6Completed\":false},\"step7_ExtraQuestions\":{\"isStep7Completed\":false}}",
+            "createDate": 1689541895473
+          }
+        }
+      ],
+      "levelCount": 7
+    }
+  ]
+}
