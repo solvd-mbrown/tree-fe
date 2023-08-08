@@ -90,7 +90,7 @@ project.ext.react = [
     composeSourceMapsPath: "${reactNativeRoot}/scripts/compose-source-maps.js",
 ]
 
-apply from: new File(reactNativeRoot, "react.gradle")
+//apply from: new File(reactNativeRoot, "react.gradle")
 
 /**
  * Set this to true to create two separate APKs instead of one:
@@ -258,6 +258,7 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+    namespace 'com.rtree'
 
     // applicationVariants are e.g. debug, release
     applicationVariants.all { variant ->
@@ -297,12 +298,11 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-
     //noinspection GradleDynamicVersion
-    implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0' // <-- add this; newer versions should work too
+    implementation "com.facebook.react:react-native:0.64.2" // From node_modules
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0" // <-- add this; newer versions should work too
 
-    implementation "androidx.appcompat:appcompat:1.0.0"
+    implementation "androidx.appcompat:appcompat:1.6.1"
 
     def isGifEnabled = (findProperty('expo.gif.enabled') ?: "") == "true";
     def isWebpEnabled = (findProperty('expo.webp.enabled') ?: "") == "true";

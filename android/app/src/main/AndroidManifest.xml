@@ -1,43 +1,43 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.arrtree">
+<manifest xmlns:ns0="http://schemas.android.com/apk/res/android">
 
-  <uses-permission android:name="android.permission.INTERNET" />
-  <!-- CAMERA PERMISSIONS -->
-  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-  <uses-permission android:name="android.permission.VIBRATE" />
-  <uses-permission android:name="android.permission.CAMERA" />
-  <!-- These require runtime permissions on M -->
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.RECORD_AUDIO" />
-  <!-- END OPTIONAL PERMISSIONS -->
+  <uses-permission ns0:name="android.permission.INTERNET" />
+  
+  <uses-permission ns0:name="android.permission.SYSTEM_ALERT_WINDOW" />
+  <uses-permission ns0:name="android.permission.VIBRATE" />
+  <uses-permission ns0:name="android.permission.CAMERA" />
+  
+  <uses-permission ns0:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission ns0:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission ns0:name="android.permission.RECORD_AUDIO" />
+  
 
   <queries>
-    <!-- Support checking for http(s) links via the Linking API -->
+    
     <intent>
-      <action android:name="android.intent.action.VIEW" />
-      <category android:name="android.intent.category.BROWSABLE" />
-      <data android:scheme="https" />
+      <action ns0:name="android.intent.action.VIEW" />
+      <category ns0:name="android.intent.category.BROWSABLE" />
+      <data ns0:scheme="https" />
     </intent>
   </queries>
 
 
-  <application android:name=".MainApplication" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher" android:allowBackup="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
-    <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="YOUR-APP-URL-HERE" />
-    <meta-data android:name="expo.modules.updates.EXPO_SDK_VERSION" android:value="YOUR-APP-SDK-VERSION-HERE" />
-    <activity android:name="com.ahmedadeltito.photoeditor.PhotoEditorActivity" /> <activity android:name="com.yalantis.ucrop.UCropActivity" />
-    <activity android:name=".MainActivity" android:label="@string/app_name" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:launchMode="singleTask" android:windowSoftInputMode="adjustPan" android:theme="@style/Theme.App.SplashScreen" android:exported="true">
+  <application ns0:name=".MainApplication" ns0:label="@string/app_name" ns0:icon="@mipmap/ic_launcher" ns0:roundIcon="@mipmap/ic_launcher" ns0:allowBackup="true" ns0:theme="@style/AppTheme" ns0:usesCleartextTraffic="true">
+    <meta-data ns0:name="expo.modules.updates.EXPO_UPDATE_URL" ns0:value="YOUR-APP-URL-HERE" />
+    <meta-data ns0:name="expo.modules.updates.EXPO_SDK_VERSION" ns0:value="YOUR-APP-SDK-VERSION-HERE" />
+    <activity ns0:name="com.ahmedadeltito.photoeditor.PhotoEditorActivity" /> <activity ns0:name="com.yalantis.ucrop.UCropActivity" />
+    <activity ns0:name=".MainActivity" ns0:label="@string/app_name" ns0:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" ns0:launchMode="singleTask" ns0:windowSoftInputMode="adjustPan" ns0:theme="@style/Theme.App.SplashScreen" ns0:exported="true">
       <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
+        <action ns0:name="android.intent.action.MAIN" />
+        <category ns0:name="android.intent.category.LAUNCHER" />
       </intent-filter>
-      <intent-filter android:autoVerify="true">
-        <action android:name="android.intent.action.VIEW"/>
-        <category android:name="android.intent.category.DEFAULT"/>
-        <category android:name="android.intent.category.BROWSABLE"/>
-        <data android:host="arrtreeapp.page.link" android:scheme="http"/>
-        <data android:host="arrtreeapp.page.link" android:scheme="https"/>
+      <intent-filter ns0:autoVerify="true">
+        <action ns0:name="android.intent.action.VIEW" />
+        <category ns0:name="android.intent.category.DEFAULT" />
+        <category ns0:name="android.intent.category.BROWSABLE" />
+        <data ns0:host="arrtreeapp.page.link" ns0:scheme="http" />
+        <data ns0:host="arrtreeapp.page.link" ns0:scheme="https" />
       </intent-filter>
     </activity>
-    <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" android:exported="false" />
+    <activity ns0:name="com.facebook.react.devsupport.DevSettingsActivity" ns0:exported="false" />
   </application>
 </manifest>
